@@ -7,7 +7,7 @@ const Section3 = () => {
                 <div className=''>
                     <div className='w-[826px] h-[115px] items-center ml-[625px] mt-[1130px]'>
                         <p className='mt-[120px] text-4xl leading-[120%] font-bold text-center'>Procedure</p>
-                        <p className='font-semibold leading-[150%] mt-3 text-base text-center ml-[27px] text-[#2D2D2D]'>We don't let the little things stop us, we implement them quickly. This is how we ensure that we can deliver<br></br> fast and powerful results for our clients.</p>
+                        <p className='font-semibold leading-[150%] mt-3 text-base text-center ml-[27px] text-[#2D2D2D]'>We don&#39;t let the little things stop us, we implement them quickly. This is how we ensure that we can deliver<br></br> fast and powerful results for our clients.</p>
                     </div>
                 </div>
                 <div className='flex justify-center w-full max-w-[1920px]'>

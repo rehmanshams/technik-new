@@ -35,7 +35,7 @@ const Section4 = () => {
                     <p className='  w-[826px]  h-[257px] mt-[120px] text-4xl leading-[120%] font-bold text-center'>About Us</p>
                 </div>
                 <div className='flex justify-center text-center mt-[-180px]'>
-                    <p className='text-[#2D2D2D] font-normal'>Progress is our constant drive. We take care of it!ee technik, your partner with a high level of “Problem<br />-Solving” expertise. We want to offer as many investors and operators of “Renewable Energy Generation<br /> Plants” as possible the freedom to build and operate plants from a wide variety of manufacturers. That is<br /> why we develop high quality and reliable products for our customers. In our projects, we ensure that the<br /> system is operated economically and in accordance with the guidelines.</p>
+                    <p className='text-[#2D2D2D] font-normal'>Progress is our constant drive. We take care of it!ee technik, your partner with a high level of &quot;Problem<br />-Solving&quot; expertise. We want to offer as many investors and operators of &quot;Renewable Energy Generation<br /> Plants&quot; as possible the freedom to build and operate plants from a wide variety of manufacturers. That is<br /> why we develop high quality and reliable products for our customers. In our projects, we ensure that the<br /> system is operated economically and in accordance with the guidelines.</p>
                 </div>
                 <div className=' flex place-content-center w-full mt-12 justify-center'>
                     <button className='w-[90px] h-[22px] text-[#00828C] text-center  font-normal text-lg'><u>View More</u></button>

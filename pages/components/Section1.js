@@ -11,7 +11,7 @@ const Section1 = () => {
                 </div>
                 <div className='max-w-[500px] w-full  h-[81px]'>
                     <p className='mt-6 text-lg leaing-[150%]  font-normal font-camp'>
-                        We’re a team of IT Engineers that make sure that you get<br></br> your grid connection, are allowed to feed in safely and<br></br> receive feed-in tariff. Hassle-free!
+                        We&apos;re a team of IT Engineers that make sure that you get<br></br> your grid connection, are allowed to feed in safely and<br></br> receive feed-in tariff. Hassle-free!
                     </p>
                 </div>
                 <div className='w-[266px] h-[59px] bg-[#00828C] mt-8 flex justify-center'>

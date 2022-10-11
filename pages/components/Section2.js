@@ -6,8 +6,8 @@ const Section2 = () => {
             <div className='w-full max-w-[1920px] h-[1980px] bg-white  mx-auto '>
                 <div className='section-3 flex w-full justify-center  pt-[120px]'>
                     <div className='mt-[120px] w-full max-w-[822px] h-[206px]'>
-                        <p className='text-4xl leading-[120%] font-bold text-center'>Progress Is Our Constant Drive<br></br> We’ll Take Care Of It!</p>
-                        <p className='font-normal text-center text-base	mt-6'>A team of <span className='font-medium text-base'><i>“IT Engineers”</i></span> who develop solutions for our partners with heart and soul. With our service we<br></br> help our partners to achieve their goals. Our special forces serve only one purpose: to overcome the feeling<br></br> of <span className='font-medium text-base'><i>“Powerlessness and Helplessness”</i> </span>of our customers and to take action. We show the <br></br>way and have the right strategy for it.</p>
+                        <p className='text-4xl leading-[120%] font-bold text-center'>Progress Is Our Constant Drive<br></br> We&apos;ll Take Care Of It!</p>
+                        <p className='font-normal text-center text-base	mt-6'>A team of <span className='font-medium text-base'><i>&quot;IT Engineers&quot;</i></span> who develop solutions for our partners with heart and soul. With our service we<br></br> help our partners to achieve their goals. Our special forces serve only one purpose: to overcome the feeling<br></br> of <span className='font-medium text-base'><i>&quot;Powerlessness and Helplessness&quot;</i> </span>of our customers and to take action. We show the <br></br>way and have the right strategy for it.</p>
                     </div>
                 </div>
                 <div className='flex justify-center ml-36 mt-12 gap-6'>
@@ -15,21 +15,21 @@ const Section2 = () => {
                         <img src='https://tuk-cdn.s3.amazonaws.com/can-uploader/Rectangle%2011787.svg'></img>
                         <div>
                             <p className='font-bold mt-6 leading-[150%] text-xl text-center w-[424px] h-[29px]'>Transparency</p>
-                            <p className='font-normal mt-3 text-base text-center text-[#2D2D2D]'>“Transparency helps you to be clear about your intentions.”</p>
+                            <p className='font-normal mt-3 text-base text-center text-[#2D2D2D]'>&quot;Transparency helps you to be clear about your intentions.&quot;</p>
                         </div>
                     </div>
                     <div className='w-[400.67px] h-[422px]'>
                         <img src='https://tuk-cdn.s3.amazonaws.com/can-uploader/Rectangle%2011787%20%281%29.svg'></img>
                         <div>
-                            <p className='font-bold mt-6 leading-[150%] text-xl text-center w-[424px] h-[29px]'>Don't leave customers alone</p>
-                            <p className='font-normal mt-3 text-base text-center ml-[27px] text-[#2D2D2D]'>“Customer experience is the next competitive battleground”</p>
+                            <p className='font-bold mt-6 leading-[150%] text-xl text-center w-[424px] h-[29px]'>Don&apos;t leave customers alone</p>
+                            <p className='font-normal mt-3 text-base text-center ml-[27px] text-[#2D2D2D]'>&quot;Customer experience is the next competitive battleground&quot;</p>
                         </div>
                     </div>
                     <div className='w-[400.67px] h-[422px]'>
                         <img src='https://tuk-cdn.s3.amazonaws.com/can-uploader/Rectangle+11787+%282%29.svg'></img>
                         <div>
                             <p className='font-bold mt-6 leading-[150%] text-xl text-center w-[424px]  h-[29px]'>Delivery reliability adhere</p>
-                            <p className='font-normal mt-3 text-base text-center ml-[27px] text-[#2D2D2D]'>“Reliability is the precondition of trust”</p>
+                            <p className='font-normal mt-3 text-base text-center ml-[27px] text-[#2D2D2D]'>&quot;Reliability is the precondition of trust&quot;</p>
                         </div>
                     </div>
                 </div>

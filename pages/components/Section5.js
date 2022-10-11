@@ -15,7 +15,7 @@ const Section5 = () => {
                                         <path d="M10.0071 0H5.9364L1.35689 13.3091C-3.12209e-06 16.6909 0 17.4545 0 18.6545C0 21.7091 1.86573 24 4.32509 24C6.69965 24 8.56536 21.7091 8.56536 18.6545C8.56536 16.5818 7.63251 14.9455 5.85159 14.0727L10.0071 0ZM24 0H19.9293L15.3498 13.3091C13.9929 16.6909 13.9929 17.4545 13.9929 18.6545C13.9929 21.7091 15.8586 24 18.318 24C20.6926 24 22.5583 21.7091 22.5583 18.6545C22.5583 16.5818 21.6254 14.9455 19.8445 14.0727L24 0Z" fill="#00828C" />
                                     </svg>
                                 </div>
-                                <p className='font-normal  text-base mt-1 text-center  text-[#2D2D2D]'>"I love Technik they are always<br /> helpful whenever I need advice. I,<br /> would use no other company."</p>
+                                <p className='font-normal  text-base mt-1 text-center  text-[#2D2D2D]'>&quot;I love Technik they are always<br /> helpful whenever I need advice. I,<br /> would use no other company.&quot;</p>
                                 <div className='boderlineclass'></div>
                                 <div className='flex justify-center mt-4 mr-2'>
                                     <img src='https://tuk-cdn.s3.amazonaws.com/can-uploader/Ellipse%206.svg' />
@@ -28,7 +28,7 @@ const Section5 = () => {
                                         <path d="M10.0071 0H5.9364L1.35689 13.3091C-3.12209e-06 16.6909 0 17.4545 0 18.6545C0 21.7091 1.86573 24 4.32509 24C6.69965 24 8.56536 21.7091 8.56536 18.6545C8.56536 16.5818 7.63251 14.9455 5.85159 14.0727L10.0071 0ZM24 0H19.9293L15.3498 13.3091C13.9929 16.6909 13.9929 17.4545 13.9929 18.6545C13.9929 21.7091 15.8586 24 18.318 24C20.6926 24 22.5583 21.7091 22.5583 18.6545C22.5583 16.5818 21.6254 14.9455 19.8445 14.0727L24 0Z" fill="#00828C" />
                                     </svg>
                                 </div>
-                                <p className='font-normal  text-base mt-1 text-center  text-[#2D2D2D]'>"I love Technik they are always<br /> helpful whenever I need advice. I,<br /> would use no other company."</p>
+                                <p className='font-normal  text-base mt-1 text-center  text-[#2D2D2D]'>&quot;I love Technik they are always<br /> helpful whenever I need advice. I,<br /> would use no other company.&quot;</p>
                                 <div className='boderlineclass'></div>
                                 <div className='flex justify-center mt-4 mr-2'>
                                     <img src='https://tuk-cdn.s3.amazonaws.com/can-uploader/Frame%20812195.svg' />
@@ -41,7 +41,7 @@ const Section5 = () => {
                                         <path d="M10.0071 0H5.9364L1.35689 13.3091C-3.12209e-06 16.6909 0 17.4545 0 18.6545C0 21.7091 1.86573 24 4.32509 24C6.69965 24 8.56536 21.7091 8.56536 18.6545C8.56536 16.5818 7.63251 14.9455 5.85159 14.0727L10.0071 0ZM24 0H19.9293L15.3498 13.3091C13.9929 16.6909 13.9929 17.4545 13.9929 18.6545C13.9929 21.7091 15.8586 24 18.318 24C20.6926 24 22.5583 21.7091 22.5583 18.6545C22.5583 16.5818 21.6254 14.9455 19.8445 14.0727L24 0Z" fill="#00828C" />
                                     </svg>
                                 </div>
-                                <p className='font-normal  text-base mt-1 text-center  text-[#2D2D2D]'>"I love Technik they are always<br /> helpful whenever I need advice. I,<br /> would use no other company."</p>
+                                <p className='font-normal  text-base mt-1 text-center  text-[#2D2D2D]'>&quot;I love Technik they are always<br /> helpful whenever I need advice. I,<br /> would use no other company.&quot;</p>
                                 <div className='boderlineclass'></div>
                                 <div className='flex justify-center mt-4 mr-2'>
                                     <img src='https://tuk-cdn.s3.amazonaws.com/can-uploader/Frame%20812195%20%281%29.svg' />
@@ -58,7 +58,7 @@ const Section5 = () => {
                                         <path d="M10.0071 0H5.9364L1.35689 13.3091C-3.12209e-06 16.6909 0 17.4545 0 18.6545C0 21.7091 1.86573 24 4.32509 24C6.69965 24 8.56536 21.7091 8.56536 18.6545C8.56536 16.5818 7.63251 14.9455 5.85159 14.0727L10.0071 0ZM24 0H19.9293L15.3498 13.3091C13.9929 16.6909 13.9929 17.4545 13.9929 18.6545C13.9929 21.7091 15.8586 24 18.318 24C20.6926 24 22.5583 21.7091 22.5583 18.6545C22.5583 16.5818 21.6254 14.9455 19.8445 14.0727L24 0Z" fill="#00828C" />
                                     </svg>
                                 </div>
-                                <p className='font-normal  text-base mt-1 text-center  text-[#2D2D2D]'>"I love Technik they are always<br /> helpful whenever I need advice. I,<br /> would use no other company."</p>
+                                <p className='font-normal  text-base mt-1 text-center  text-[#2D2D2D]'>&quot;I love Technik they are always<br /> helpful whenever I need advice. I,<br /> would use no other company.&quot;</p>
                                 <div className='boderlineclass'></div>
                                 <div className='flex justify-center mt-4 mr-2'>
                                     <img src='https://tuk-cdn.s3.amazonaws.com/can-uploader/Frame%20812195%20%282%29.svg' />
@@ -71,7 +71,7 @@ const Section5 = () => {
                                         <path d="M10.0071 0H5.9364L1.35689 13.3091C-3.12209e-06 16.6909 0 17.4545 0 18.6545C0 21.7091 1.86573 24 4.32509 24C6.69965 24 8.56536 21.7091 8.56536 18.6545C8.56536 16.5818 7.63251 14.9455 5.85159 14.0727L10.0071 0ZM24 0H19.9293L15.3498 13.3091C13.9929 16.6909 13.9929 17.4545 13.9929 18.6545C13.9929 21.7091 15.8586 24 18.318 24C20.6926 24 22.5583 21.7091 22.5583 18.6545C22.5583 16.5818 21.6254 14.9455 19.8445 14.0727L24 0Z" fill="#00828C" />
                                     </svg>
                                 </div>
-                                <p className='font-normal  text-base mt-1 text-center  text-[#2D2D2D]'>"I love Technik they are always<br /> helpful whenever I need advice. I,<br /> would use no other company."</p>
+                                <p className='font-normal  text-base mt-1 text-center  text-[#2D2D2D]'>&quot;I love Technik they are always<br /> helpful whenever I need advice. I,<br /> would use no other company.&quot;</p>
                                 <div className='boderlineclass'></div>
                                 <div className='flex justify-center mt-4 mr-2'>
                                     <img src='https://tuk-cdn.s3.amazonaws.com/can-uploader/Frame%20812195%20%283%29.svg' />
@@ -84,7 +84,7 @@ const Section5 = () => {
                                         <path d="M10.0071 0H5.9364L1.35689 13.3091C-3.12209e-06 16.6909 0 17.4545 0 18.6545C0 21.7091 1.86573 24 4.32509 24C6.69965 24 8.56536 21.7091 8.56536 18.6545C8.56536 16.5818 7.63251 14.9455 5.85159 14.0727L10.0071 0ZM24 0H19.9293L15.3498 13.3091C13.9929 16.6909 13.9929 17.4545 13.9929 18.6545C13.9929 21.7091 15.8586 24 18.318 24C20.6926 24 22.5583 21.7091 22.5583 18.6545C22.5583 16.5818 21.6254 14.9455 19.8445 14.0727L24 0Z" fill="#00828C" />
                                     </svg>
                                 </div>
-                                <p className='font-normal  text-base mt-1 text-center  text-[#2D2D2D]'>"I love Technik they are always<br /> helpful whenever I need advice. I,<br /> would use no other company."</p>
+                                <p className='font-normal  text-base mt-1 text-center  text-[#2D2D2D]'>&quot;I love Technik they are always<br /> helpful whenever I need advice. I,<br /> would use no other company.&quot;</p>
                                 <div className='boderlineclass'></div>
                                 <div className='flex justify-center mt-4 mr-2'>
                                     <img src='https://tuk-cdn.s3.amazonaws.com/can-uploader/Frame%20812195%20%284%29.svg' />
