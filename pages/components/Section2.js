@@ -62,7 +62,7 @@ const Section2 = () => {
                         <img className=' mt-3 ml-3 mr-3' src='https://tuk-cdn.s3.amazonaws.com/can-uploader/Frame%20812932%20%282%29.svg'></img>
                         <div>
 
-                            <p className='font-semibold mt-4 text-base text-center text-[#2D2D2D]'>DEA regulation</p>
+                             <p className='font-semibold mt-4 text-base text-center text-[#2D2D2D]'>DEA regulation</p>
                         </div>
                     </div>
                 </div>
