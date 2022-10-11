@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Campton Font Family";
+  src: url(../public/campton-cufonfonts/CamptonBold.otf);
+}
+body{
+  
+}
+.chamtpon {
+  font-family: ;
+}
+@font-face {
+  font-family: "Campton Font Family";
+  src: url(../public/campton-cufonfonts/CamptonBoldItalic.otf);
+}
+@font-face {
+  font-family: "Campton Font Family";
+  src: url(../public/campton-cufonfonts/CamptonThin.otf);
+}
+.arrow-button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 10px;
+
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  top: 550px;
+  margin-left: -27px;
+  background: #00828c;
+  border: 1px solid #00828c;
+  box-shadow: 0px 8px 12px rgba(0, 130, 140, 0.37);
+  border-radius: 60px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  overflow: hidden;
+  width: 100%;
+  gap: 24;
+  top: 910px;
+}
+.boxclass {
+  box-shadow: 0px 4px 24px rgba(171, 171, 171, 0.15);
+}
+.boderlineclass {
+  width: 52px;
+  height: 0px;
+margin-left: 135px;
+  margin-top: 18px;
+ 
+  border: 1.5px solid #00828c;
+background-color: #00828c;
+  /* Inside auto layout */
+
+
+}
