@@ -6,9 +6,6 @@
   font-family: "Campton Font Family";
   src: url(../public/campton-cufonfonts/CamptonBold.otf);
 }
-body{
-  
-}
 .chamtpon {
   font-family: ;
 }
@@ -30,7 +27,7 @@ body{
   position: absolute;
   width: 56px;
   height: 56px;
-  top: 550px;
+ 
   margin-left: -27px;
   background: #00828c;
   border: 1px solid #00828c;
@@ -41,9 +38,7 @@ body{
   display: grid;
   grid-template-columns: auto auto auto auto;
   overflow: hidden;
-  width: 100%;
-  gap: 24;
-  top: 910px;
+ 
 }
 .boxclass {
   box-shadow: 0px 4px 24px rgba(171, 171, 171, 0.15);
@@ -51,12 +46,44 @@ body{
 .boderlineclass {
   width: 52px;
   height: 0px;
-margin-left: 135px;
-  margin-top: 18px;
- 
+
+
   border: 1.5px solid #00828c;
-background-color: #00828c;
+  background-color: #00828c;
   /* Inside auto layout */
+}
 
+.swiper {
+  width: 100%;
+  margin-top: -120px;
 
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

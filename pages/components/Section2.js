@@ -3,14 +3,14 @@ import React from 'react'
 const Section2 = () => {
     return (
         <div>
-            <div className='w-full max-w-[1920px] h-[1980px] bg-white  mx-auto '>
-                <div className='section-3 flex w-full justify-center  pt-[120px]'>
-                    <div className='mt-[120px] w-full max-w-[822px] h-[206px]'>
-                        <p className='text-4xl leading-[120%] font-bold text-center'>Progress Is Our Constant Drive<br></br> We&apos;ll Take Care Of It!</p>
+            <div className='w-full max-w-[1920px]  h-[1980px] bg-white  mx-auto '>
+                <div className='section-3 flex sm:w-[1520px] 2xl:w-full  justify-center  pt-[120px]'>
+                    <div className='mt-[120px] w-full   max-w-[822px] h-[206px]'>
+                        <p className='text-4xl leading-[120%] 2xl:ml-12 font-bold text-center'>Progress Is Our Constant Drive<br></br> We&apos;ll Take Care Of It!</p>
                         <p className='font-normal text-center text-base	mt-6'>A team of <span className='font-medium text-base'><i>&quot;IT Engineers&quot;</i></span> who develop solutions for our partners with heart and soul. With our service we<br></br> help our partners to achieve their goals. Our special forces serve only one purpose: to overcome the feeling<br></br> of <span className='font-medium text-base'><i>&quot;Powerlessness and Helplessness&quot;</i> </span>of our customers and to take action. We show the <br></br>way and have the right strategy for it.</p>
                     </div>
                 </div>
-                <div className='flex justify-center ml-36 mt-12 gap-6'>
+                <div className='flex justify-center  sm:ml-[770px] 2xl:ml-36 mt-12 gap-6'>
                     <div className='w-[400.67px] h-[422px]'>
                         <img src='https://tuk-cdn.s3.amazonaws.com/can-uploader/Rectangle%2011787.svg'></img>
                         <div>
@@ -35,7 +35,7 @@ const Section2 = () => {
                 </div>
 
             </div>
-            <div className='absolute w-full  h-[896px] mt-[120px] bg-gray-100'>
+            <div className='absolute 2xl:w-full  sm:w-[1520px] h-[896px] mt-[120px] bg-gray-100'>
                 <div className='ml-24'>
                     <p className='mt-[120px] text-4xl leading-[120%] font-bold text-center'>What We Do Best?</p>
                     <p className='font-normal leading-[150%] mt-3 text-base text-center ml-[27px] text-[#2D2D2D]'>You want to build a renewable energy power plant <span className='font-bold'>(Wind, PV, Biogas)</span> and want to earn money with it.<br></br>
