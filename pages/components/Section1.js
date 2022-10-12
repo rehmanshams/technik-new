@@ -2,7 +2,7 @@ import React from 'react'
 
 const Section1 = () => {
     return (
-        <div className='w-full max-w-[1920px]  h-full mx-auto '>
+        <div className='w-full max-w-[1920px] h-full mx-auto '>
 
             <div className='w-full max-w-[1615px] absolute mt-[281px] ml-[237px] '>
                 <div className='text-[50px] w-full max-w-[615px] font-camp h-[120px] leading-[120%]'>
@@ -24,14 +24,14 @@ const Section1 = () => {
                 </div>
             </div>
 
-            <div className=' w-full ml-[200px] max-w-[1467px] h-full float-right bg-gray-100'>
+            <div className=' w-full ml-[200px] max-w-[1467px]  h-full float-right bg-gray-100'>
 
                 <div className='flex float-right'>
-                    <button className='arrow-button 2xl:mt-[640px]'><img className='flex w-6 h-6 justify-center mr-1' src='https://tuk-cdn.s3.amazonaws.com/can-uploader/Arrow_Left_5.svg'></img></button>
+                    <button className='arrow-button mt-[640px]'><img className='flex w-6 h-6 justify-center mr-1' src='https://tuk-cdn.s3.amazonaws.com/can-uploader/Arrow_Left_5.svg'></img></button>
                     <img className='mt-[136px] w-full max-w-[436px] max-h-[662px] h-full mr-10' src='https://tuk-cdn.s3.amazonaws.com/can-uploader/Rectangle+2.svg'></img>
                     <img className='mt-[100px]' src='https://tuk-cdn.s3.amazonaws.com/can-uploader/Rectangle%203.svg'></img>
                 </div>
-                <div className='grid-container  cursor-pointer 2xl:mt-[800px] bg-inherit'>
+                <div className='grid-container cursor-pointer mt-[800px] bg-inherit'>
 
                     <div className=' flex justify-center align-center  ml-[250px] items-center w-full max-w-[176px] h-[168.54px] '>
                         <img src='https://tuk-cdn.s3.amazonaws.com/can-uploader/image%206.png' />

@@ -19,7 +19,7 @@ const Header = () => {
                         <path d="M89.9399 40.7302C91.6745 40.7302 93.0252 39.8394 93.4539 38.4235H90.915C90.6903 38.6416 90.3744 38.7724 89.9706 38.7724C89.0328 38.7724 88.5195 38.2515 88.3222 37.5797H93.5368C93.5808 37.2894 93.5808 36.9824 93.5808 36.6947C93.5808 34.4627 91.9631 32.978 89.8479 32.978C87.4913 32.978 85.9366 34.6011 85.9366 36.8474C85.9366 39.1096 87.5345 40.7302 89.9399 40.7302ZM89.8329 34.8905C90.6198 34.8905 91.1497 35.3174 91.2856 36.1294H88.3089C88.4888 35.3812 89.0004 34.8905 89.8329 34.8905Z" fill="#00828C" />
                     </svg>
                 </div>
-                <div className='flex gap-10 	  w-full max-w-[1055px]  '>
+                <div className='flex gap-10	  w-full max-w-[1055px]  '>
                     <nav className='mt-[35.5px] campton-bold space-x-10 text-4 flex font-normal cursor-pointer w-full max-w-[817px] h-[24px] font-camp 	 '>
                         <ul className='font-bold font-camp  gap-10	 text-[#00828C]'><u>Home</u></ul>
                         <ul className='font-normal  font-camp 	'>About us</ul>
