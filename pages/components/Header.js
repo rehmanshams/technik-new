@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <div className='w-full max-w-[1920px] h-full mx-auto'>
             <div className='flex  max-w-[1920px] absolute justify-between w-full items-center'>
-                <div className='max-w-[141px] w-full h-12 ml-20 mt-4'>
+                <div className='max-w-[141px] w-full h-12 lg:ml-16 xl:ml-20 2xl:ml-20 mt-4'>
                     <svg width="142" height="49" viewBox="0 0 142 49" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M47.2321 9.05762C44.8366 9.05762 43.2521 10.7058 43.2521 12.9932C43.2521 15.2915 44.8822 16.9389 47.325 16.9389C49.0886 16.9389 50.4626 16.033 50.8995 14.5945H48.3133C48.0886 14.8134 47.7661 14.9493 47.3557 14.9493C46.4021 14.9493 45.8822 14.4184 45.6791 13.7339H50.9825C51.0281 13.4403 51.0281 13.13 51.0281 12.8355C51.0281 10.5649 49.383 9.05762 47.2321 9.05762ZM45.6658 12.2593C45.8499 11.4985 46.3714 11.0011 47.2188 11.0011C48.0157 11.0011 48.5538 11.4356 48.6923 12.2593H45.6658Z" fill="#00828C" />
                         <path d="M12.1939 9.05762C9.79598 9.05762 8.21143 10.7058 8.21143 12.9932C8.21143 15.2915 9.84075 16.9389 12.2868 16.9389C14.0513 16.9389 15.4236 16.033 15.8597 14.5945H13.276C13.0488 14.8134 12.7271 14.9493 12.3167 14.9493C11.3648 14.9493 10.8432 14.4184 10.6409 13.7339H15.9426C15.9899 13.4403 15.9899 13.13 15.9899 12.8355C15.9899 10.5649 14.3456 9.05762 12.1939 9.05762ZM10.626 12.2593C10.8109 11.4985 11.3316 11.0011 12.1774 11.0011C12.9775 11.0011 13.5156 11.4356 13.6516 12.2593H10.626Z" fill="#00828C" />
@@ -19,9 +19,9 @@ const Header = () => {
                         <path d="M89.9399 40.7302C91.6745 40.7302 93.0252 39.8394 93.4539 38.4235H90.915C90.6903 38.6416 90.3744 38.7724 89.9706 38.7724C89.0328 38.7724 88.5195 38.2515 88.3222 37.5797H93.5368C93.5808 37.2894 93.5808 36.9824 93.5808 36.6947C93.5808 34.4627 91.9631 32.978 89.8479 32.978C87.4913 32.978 85.9366 34.6011 85.9366 36.8474C85.9366 39.1096 87.5345 40.7302 89.9399 40.7302ZM89.8329 34.8905C90.6198 34.8905 91.1497 35.3174 91.2856 36.1294H88.3089C88.4888 35.3812 89.0004 34.8905 89.8329 34.8905Z" fill="#00828C" />
                     </svg>
                 </div>
-                <div className='flex gap-10	  w-full max-w-[1055px]  '>
-                    <nav className='mt-[35.5px] campton-bold space-x-10 text-4 flex font-normal cursor-pointer w-full max-w-[817px] h-[24px] font-camp 	 '>
-                        <ul className='font-bold font-camp  gap-10	 text-[#00828C]'><u>Home</u></ul>
+                <div className='flex lg: xl:gap-10  2xl:gap-10	  w-full lg:max-w-[800px] xl:max-w-[1000px] 2xl:max-w-[1055px]  '>
+                    <nav className='mt-[35.5px]  2xl:ml-0 lg:ml-14 xl:ml-10 campton-bold space-x-10 lg:text-xs xl:text-sm 2xl:text-4 flex font-normal cursor-pointer w-full lg:max-w-[700px] xl:max-w-[700px] 2xl:max-w-[817px] h-[24px] font-camp 	 '>
+                        <ul className='font-bold font-camp  2xl:gap-10	 text-[#00828C]'><u>Home</u></ul>
                         <ul className='font-normal  font-camp 	'>About us</ul>
                         <ul className='font-normal font-camp '>Community</ul>
                         <ul className='font-normal font-camp '>Public utilities</ul>
@@ -29,8 +29,8 @@ const Header = () => {
                         <ul className='font-normal font-camp'>References</ul>
                         <ul className='font-normal font-camp'>Careers</ul>
                     </nav>
-                    <div className='mt-5 text-center align-center flex justify-center mr-20 w-[220px] h-[55px] bg-[#00828C]'>
-                        <button className='text-white text-7 font-medium w-[142px] h-[27px] mt-3' >Request a quote</button>
+                    <div className='mt-5 text-center align-center flex justify-center lg:w-[100px] 2xl:mr-20 xl:w-[150px] 2xl:w-[220px] lg:h-[45px] xl:h-[55px] 2xl:h-[55px] bg-[#00828C]'>
+                        <button className='text-white lg:text-xs xl:text-7 2xl:text-7 font-medium w-[142px] h-[27px] lg:mt-2 xl:mt-3 2xl:mt-3' >Request a quote</button>
                     </div>
                 </div>
             </div>
