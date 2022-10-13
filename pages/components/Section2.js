@@ -67,7 +67,7 @@ const Section2 = () => {
                     </div>
                 </div>
                 <div className='mt-12 absolute	mx-auto w-full  flex justify-center place-content-center   h-[55px] bg-[#00828C]'>
-                    <button className='text-white 2xl:ml-44 text-7 font-medium w-[202px] h-[27px] mt-3' >Connect me to the grid</button>
+                    <button className='text-white 4xl:ml-16 2xl:ml-32 text-7 font-medium w-[202px] h-[27px] mt-3' >Connect me to the grid</button>
                 </div>
 
             </div>

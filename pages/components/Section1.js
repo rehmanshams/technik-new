@@ -4,7 +4,7 @@ const Section1 = () => {
     return (
         <div className='w-full max-w-[1920px] h-full mx-auto '>
 
-            <div className='w-full xl:[1280px] 2xl:max-w-[1615px] absolute lg:mt-[201px] xl:mt-[281px] 2xl:mt-[281px] lg:pl-16 xl:pl-16 2xl:pl-0 2xl:ml-[237px] '>
+            <div className='w-full xl:[1280px] 2xl:max-w-[1536px] 4xl:max-w-[1615px] absolute lg:mt-[201px] xl:mt-[281px] 2xl:mt-[281px] lg:pl-16 xl:pl-16 2xl:pl-0 2xl:ml-[237px] '>
                 <div className=' lg:text-[40px] xl:text-[50px] 2xl:text-[50px] w-full xl:max-w-[1280px] 2xl:max-w-[615px] font-camp h-[120px] leading-[120%]'>
                     <p className='font-normal'>Connect To The Grid <br></br>
                         <span className='font-bold font-campi '><i>Safely</i></span> And <span className='font-bold'><i>Efficiently</i></span></p>
@@ -24,7 +24,7 @@ const Section1 = () => {
                 </div>
             </div>
 
-            <div className=' w-full 2xl:ml-[200px] lg:max-w-[750px] xl:max-w-[980px] 2xl:max-w-[1467px]  h-full float-right bg-gray-100'>
+            <div className=' w-full 2xl:ml-[200px] lg:max-w-[750px] xl:max-w-[980px] 2xl:max-w-[1100px] 4xl:max-w-[1467px]  h-full float-right bg-gray-100'>
 
                 <div className='flex float-right'>
                     <button className='arrow-button xl:mt-[540px] lg:mt-[410px] 2xl:mt-[640px]'><img className='flex w-6 h-6 justify-center mr-1' src='https://tuk-cdn.s3.amazonaws.com/can-uploader/Arrow_Left_5.svg'></img></button>

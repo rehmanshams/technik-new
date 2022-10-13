@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
     return (
-        <div className='w-full max-w-[1920px] h-full mx-auto'>
+        <div className='w-full  max-w-[1920px] h-full mx-auto'>
             <div className='flex  max-w-[1920px] absolute justify-between w-full items-center'>
                 <div className='max-w-[141px] w-full h-12 lg:ml-16 xl:ml-20 2xl:ml-20 mt-4'>
                     <svg width="142" height="49" viewBox="0 0 142 49" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -20,7 +20,7 @@ const Header = () => {
                     </svg>
                 </div>
                 <div className='flex lg: xl:gap-10  2xl:gap-10	  w-full lg:max-w-[800px] xl:max-w-[1000px] 2xl:max-w-[1055px]  '>
-                    <nav className='mt-[35.5px]  2xl:ml-0 lg:ml-14 xl:ml-10 campton-bold space-x-10 lg:text-xs xl:text-sm 2xl:text-4 flex font-normal cursor-pointer w-full lg:max-w-[700px] xl:max-w-[700px] 2xl:max-w-[817px] h-[24px] font-camp 	 '>
+                    <nav className='mt-[35.5px]  2xl:ml-0 lg:ml-14 xl:ml-10 campton-bold space-x-10 lg:text-xs xl:text-sm 2xl:text-4 flex font-normal cursor-pointer w-full lg:max-w-[700px] xl:max-w-[700px] 2xl:max-w-[1017px] h-[24px] font-camp 	 '>
                         <ul className='font-bold font-camp  2xl:gap-10	 text-[#00828C]'><u>Home</u></ul>
                         <ul className='font-normal  font-camp 	'>About us</ul>
                         <ul className='font-normal font-camp '>Community</ul>

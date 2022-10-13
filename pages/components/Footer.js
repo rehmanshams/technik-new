@@ -3,8 +3,8 @@ import React from 'react'
 const Footer = () => {
   return (
     <div>
-       <div className="2xl:w-full xl:[1280px] bg-[#00828C] h-[505px] mt-[120px] ">
-                <div className="flex gap-32 justify-center">
+       <div className="2xl:w-full  xl:[1280px]  bg-[#00828C] h-[505px] mt-[120px] ">
+                <div className="flex md:gap-14 lg:gap-32 xl:gap-32 2xl:gap-32 justify-center">
                     <div className="mt-20">
                         <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Group.svg" />
                         <img className="mt-6" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/image%2026.png" />

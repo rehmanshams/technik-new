@@ -5,7 +5,7 @@ const Section3 = () => {
         <div className='w-full h-full mx-auto '>
             <div className='w-full max-w-[1920px] h-full mx-auto '>
                 <div className=''>
-                    <div className='w-[826px] h-[115px] items-center 2xl:ml-[570px] xl:ml-52 lg:ml-24 mt-[1130px]'>
+                    <div className='w-[826px] h-[115px] items-center 4xl:ml-[570px] 2xl:ml-[400px] xl:ml-52 lg:ml-16 mt-[1130px]'>
                         <p className='mt-[120px] text-4xl leading-[120%] font-bold text-center'>Procedure</p>
                         <p className='font-semibold leading-[150%] mt-3 text-base text-center ml-[27px] text-[#2D2D2D]'>We don&#39;t let the little things stop us, we implement them quickly. This is how we ensure that we can deliver<br></br> fast and powerful results for our clients.</p>
                     </div>
