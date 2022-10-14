@@ -4,16 +4,16 @@ const Section6 = () => {
   return (
     <div className="w-full mx-auto">
       <div className="w-full  text-center place-content-center">
-        <p className="text-[48px] font-bold  mt-[120px] text-[#27272A]">
+        <p className="sm:text-[35px] md:text-[48px] lg:text-[48px] xl:text-[48px] 2xl:text-[48px] 4xl:text-[48px] font-bold  mt-[120px] text-[#27272A]">
           What Our Client Says
         </p>
         <br></br>
-        <p className="text-lg mt-[1px] font-normal	text-[#52525B]">
+        <p className="sm:text-md md:text-lg lg:text-lg 2xl:text-lg xl:text-lg 4xl:text-lg mt-[1px] font-normal	text-[#52525B]">
           Typical questions from our customers
         </p>
       </div>
-      <div className="w-full  md:max-w-[662px] lg:max-w-[800px] 2xl:max-w-[800px] 4xl:max-w-[800px] xl:max-w-[800px] mt-16 mx-auto">
-        <div className="border-b text-center place-content-center  border-gray-300	 mt-[22px] md:w-[685px] lg:w-[825px] xl:w-[825px] 4xl:w-[825px] 2xl:w-[825px]"></div>
+      <div className="w-full  sm:max-w-[572px] md:max-w-[662px] lg:max-w-[800px] 2xl:max-w-[800px] 4xl:max-w-[800px] xl:max-w-[800px] mt-16 mx-auto">
+      <div className="border-b text-center place-content-center  border-gray-300	 mt-[22px] sm:w-[580px] md:w-[685px] lg:w-[825px] xl:w-[825px] 4xl:w-[825px] 2xl:w-[825px]"></div>
         <div
           onClick={() => {
             faq !== null ? setFaq(0) : setFaq(null);
@@ -53,7 +53,7 @@ const Section6 = () => {
             call to get you up and running as soon as possible.
           </p>
         </div>
-        <div className="border-b text-center place-content-center  border-gray-300	 mt-[22px] md:w-[685px] lg:w-[825px] xl:w-[825px] 4xl:w-[825px] 2xl:w-[825px]"></div>
+        <div className="border-b text-center place-content-center  border-gray-300	 mt-[22px] sm:w-[580px] md:w-[685px] lg:w-[825px] xl:w-[825px] 4xl:w-[825px] 2xl:w-[825px]"></div>
         <div
           onClick={() => {
             faq !== null ? setFaq(2) : setFaq(null);
@@ -93,7 +93,7 @@ const Section6 = () => {
             call to get you up and running as soon as possible.
           </p>
         </div>
-        <div className="border-b text-center place-content-center  border-gray-300	 mt-[22px] md:w-[685px] lg:w-[825px] xl:w-[825px] 4xl:w-[825px] 2xl:w-[825px]"></div>
+        <div className="border-b text-center place-content-center  border-gray-300	 mt-[22px] sm:w-[580px] md:w-[685px] lg:w-[825px] xl:w-[825px] 4xl:w-[825px] 2xl:w-[825px]"></div>
         <div
           onClick={() => {
             faq !== null ? setFaq(3) : setFaq(null);
@@ -134,7 +134,7 @@ const Section6 = () => {
             call to get you up and running as soon as possible.
           </p>
         </div>
-        <div className="border-b text-center place-content-center  border-gray-300	 mt-[22px] md:w-[685px] lg:w-[825px] xl:w-[825px] 4xl:w-[825px] 2xl:w-[825px]"></div>
+        <div className="border-b text-center place-content-center  border-gray-300	 mt-[22px] sm:w-[580px] md:w-[685px] lg:w-[825px] xl:w-[825px] 4xl:w-[825px] 2xl:w-[825px]"></div>
         <div
           onClick={() => {
             faq !== null ? setFaq(4) : setFaq(null);
@@ -174,7 +174,7 @@ const Section6 = () => {
             call to get you up and running as soon as possible.
           </p>
         </div>
-        <div className="border-b text-center place-content-center  border-gray-300	 mt-[22px] md:w-[685px] lg:w-[825px] xl:w-[825px] 4xl:w-[825px] 2xl:w-[825px]"></div>
+        <div className="border-b text-center place-content-center  border-gray-300	 mt-[22px] sm:w-[580px] md:w-[685px] lg:w-[825px] xl:w-[825px] 4xl:w-[825px] 2xl:w-[825px]"></div>
         <div
           onClick={() => {
             faq !== null ? setFaq(5) : setFaq(null);
@@ -214,7 +214,7 @@ const Section6 = () => {
             call to get you up and running as soon as possible.
           </p>
         </div>
-        <div className="border-b text-center place-content-center  border-gray-300	 mt-[22px] md:w-[685px] lg:w-[825px] xl:w-[825px] 4xl:w-[825px] 2xl:w-[825px]"></div>{" "}
+        <div className="border-b text-center place-content-center  border-gray-300	 mt-[22px] sm:w-[580px] md:w-[685px] lg:w-[825px] xl:w-[825px] 4xl:w-[825px] 2xl:w-[825px]"></div>
         <div
           onClick={() => {
             faq !== null ? setFaq(6) : setFaq(null);
@@ -254,7 +254,7 @@ const Section6 = () => {
             call to get you up and running as soon as possible.
           </p>
         </div>
-        <div className="border-b text-center place-content-center  border-gray-300	 mt-[22px] md:w-[685px] lg:w-[825px] xl:w-[825px] 4xl:w-[825px] 2xl:w-[825px]"></div>
+        <div className="border-b text-center place-content-center  border-gray-300	 mt-[22px] sm:w-[580px] md:w-[685px] lg:w-[825px] xl:w-[825px] 4xl:w-[825px] 2xl:w-[825px]"></div>
         <div
           onClick={() => {
             faq !== null ? setFaq(7) : setFaq(null);
@@ -294,7 +294,7 @@ const Section6 = () => {
             call to get you up and running as soon as possible.
           </p>
         </div>
-        <div className="border-b text-center place-content-center  border-gray-300	 mt-[22px] md:w-[685px] lg:w-[825px] xl:w-[825px] 4xl:w-[825px] 2xl:w-[825px]"></div>
+        <div className="border-b text-center place-content-center  border-gray-300	 mt-[22px] sm:w-[580px] md:w-[685px] lg:w-[825px] xl:w-[825px] 4xl:w-[825px] 2xl:w-[825px]"></div>
         <div className="w-full flex justify-center">
           <div className="w-[258px] h-[55px] bg-[#00828C] mt-7 place-content-center flex justify-center">
             <button className="font-medium text-white text-camp text-lg leading-[150%]">

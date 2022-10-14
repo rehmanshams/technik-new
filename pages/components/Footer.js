@@ -1,10 +1,11 @@
 import React from 'react'
 
 const Footer = () => {
-  return (
-    <div>
-       <div className="2xl:w-full  xl:[1280px]  bg-[#00828C] h-[505px] mt-[120px] ">
-                <div className="flex md:gap-14 lg:gap-32 xl:gap-32 2xl:gap-32 justify-center">
+
+    return (
+        <div>
+            <div className="2xl:w-full  sm:w-full xl:w-full  bg-[#00828C] h-[505px] mt-[120px] ">
+                <div className="flex sm:gap-8 md:gap-14 lg:gap-32 xl:gap-32 2xl:gap-32 justify-center">
                     <div className="mt-20">
                         <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Group.svg" />
                         <img className="mt-6" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/image%2026.png" />
@@ -40,8 +41,8 @@ const Footer = () => {
                                 <li className="text-[22px] text-white  font-bold">Contact Details</li>
                                 <li className="text-base font-normal mt-6 mb-6 text-white">ee technik gmbh<br /> Gutenbering 6322848<br /> Norderstedt</li>
                                 <a className="text-base font-normal mt-6 text-white mb-6" href="tel:+49 40 3577199-20">T +49 40 3577199-20</a>
-                                <div><br/>
-                                <a className="text-base font-normal mt-6 text-white" href="https://www.eetechnik.de/kontakt/" >buero@eetechnik.de</a>
+                                <div><br />
+                                    <a className="text-base font-normal mt-6 text-white" href="https://www.eetechnik.de/kontakt/" >buero@eetechnik.de</a>
                                 </div>
                             </ul>
                         </nav>
@@ -52,10 +53,10 @@ const Footer = () => {
 
                 </div>
                 <p className="text-base  align-center text-center place-content-center cursor-pointer pb-6 font-normal mt-6 text-white">Imprint &nbsp;&nbsp;   Privacy policy</p>
-                
+               
             </div>
-    </div>
-  )
+        </div>
+    )
 }
 
 export default Footer
