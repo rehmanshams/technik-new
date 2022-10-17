@@ -1,7 +1,8 @@
 import React from 'react'
+import { useState } from "react";
 
 const Header = () => {
-
+    const [show, setShow] = useState(false);
     return (
         <div className='w-full  max-w-[1920px] h-full mx-auto'>
             <div className='flex  max-w-[1920px] absolute justify-between w-full items-center'>
@@ -22,15 +23,14 @@ const Header = () => {
                 </div>
                 <div className=''>
                     <nav className=' sm:flex md:hidden' role=" navigation">
-                        <div className='' id="menuToggle">
+                        <div onClick={() => setShow(!show)} className='ml-[400px] pb-[90px]' id="menuToggle">
 
                             <input className='' type="checkbox" />
 
                             <span></span>
                             <span></span>
                             <span></span>
-
-
+                            {show ? 
                             <ul id="menu">
                                 <a href="#"><li>About us</li></a>
                                 <a href="#"><li>Community</li></a>
@@ -38,13 +38,14 @@ const Header = () => {
                                 <a href="#"><li>EZA controller</li></a>
                                 <a href="#"><li>References</li></a>
                                 <a href="" target="_blank"><li>Careers</li></a>
-                            </ul>
+                            </ul> : null}
+
                         </div>
                     </nav>
                 </div>
                 <div className='flex lg:gap-2 md:gap-1 xl:gap-10  4xl:gap-44 4xl:max-w-[1377px] 2xl:gap-10	  w-full  md:max-w-[600px] lg:max-w-[800px] xl:max-w-[1000px] 2xl:max-w-[1055px]  '>
                
-                    <nav className='mt-[35.5px]  hidden md:flex  2xl:ml-0 lg:ml-14 4xl:gap-11 xl:ml-10 campton-bold space-x-10 md:text-[7px] lg:text-[11px] xl:text-sm 2xl:text-4 4xl:text-4 font-normal cursor-pointer w-full lg:max-w-[700px] xl:max-w-[700px] 4xl:max-w-[1184px] 2xl:max-w-[1017px] h-[24px] font-camp 	 '>
+                    <nav className='mt-[35.5px]  hidden md:flex  2xl:ml-0 lg:ml-14 4xl:gap-11 xl:ml-10 campton-bold space-x-10 md:text-[8px] lg:text-[11px] xl:text-sm 2xl:text-4 4xl:text-4 font-normal cursor-pointer w-full lg:max-w-[700px] xl:max-w-[700px] 4xl:max-w-[1184px] 2xl:max-w-[1017px] h-[24px] font-camp 	 '>
                         <ul className='font-bold font-camp  2xl:gap-10	 text-[#00828C]'><u>Home</u></ul>
                         <ul className='font-normal  font-camp 	'>About us</ul>
                         <ul className='font-normal font-camp '>Community</ul>
@@ -53,8 +54,8 @@ const Header = () => {
                         <ul className='font-normal font-camp'>References</ul>
                         <ul className='font-normal font-camp'>Careers</ul>
                     </nav>
-                    <div className='md:mt-7 lg:mt-5 xl:mt-5 2xl:mt-5 4xl:mt-5 text-center align-center flex justify-center  md:w-[80px] lg:w-[100px] 2xl:mr-20 xl:w-[150px] 2xl:w-[220px] md:h-[27px]  lg:h-[45px] xl:h-[55px] 2xl:h-[55px] bg-[#00828C]'>
-                        <button className='text-white    md:text-[10px]  lg:text-xs xl:text-7 4xl:text-7 2xl:text-7 font-medium w-[142px] h-[27px] lg:mt-2 xl:mt-3 2xl:mt-3' >Request a quote</button>
+                    <div className='md:mt-7 sm:hidden md:flex lg:mt-5 xl:mt-5 2xl:mt-5 4xl:mt-5 text-center align-center flex justify-center  md:w-[80px] lg:w-[100px] 2xl:mr-20 xl:w-[150px] 2xl:w-[220px] md:h-[27px]  lg:h-[45px] xl:h-[55px] 2xl:h-[55px] bg-[#00828C]'>
+                        <button className='text-white    md:text-[10px]  lg:text-xs xl:text-sm 4xl:text-lg 2xl:text-lg font-medium w-[142px] h-[27px] lg:mt-2 xl:mt-3 2xl:mt-3' >Request a quote</button>
                     </div>
                 </div>
             </div>
