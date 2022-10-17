@@ -28,8 +28,8 @@ const Section2 = () => {
                     <div className='lg:w-[300.67px] md:w-[230px]  xl:w-[400.67px] 2xl:w-[400.67px] sm:w-[180px] h-[422px]'>
                         <img src='https://tuk-cdn.s3.amazonaws.com/can-uploader/Rectangle+11787+%282%29.svg'></img>
                         <div>
-                            <p className='font-bold mt-6 leading-[150%] lg:text-base xl:text-xl 2xl:text-xl text-center sm:text-[13px] md:text-base  xl:w-[424px] 2xl:w-[424px]  h-[29px]'>Delivery reliability adhere</p>
-                            <p className='font-normal mt-3 sm:text-[11px] md:text-xs lg:text-xs xl:text-base 2xl:text-base text-center   sm:ml-[-7px]  md:ml-[27px] lg:ml-[27px]  xl:ml-[27px] 2xl:ml-[27px] 4xl:ml-[27px] text-[#2D2D2D]'>&quot;Reliability is the precondition of trust&quot;</p>
+                            <p className='font-bold mt-6 leading-[150%] lg:text-base xl:text-xl 2xl:text-xl text-center sm:text-[13px] md:text-base sm:ml-0 md:ml-0 lg:ml-0 xl:ml-[-14px] 2xl:ml-0 4xl:ml-0  xl:w-[424px] 2xl:w-[424px]  h-[29px]'>Delivery reliability adhere</p>
+                            <p className='font-normal mt-3 sm:text-[11px] md:text-xs lg:text-xs xl:text-base 2xl:text-base text-center   sm:ml-[-7px]  md:ml-[27px] lg:ml-[27px]  xl:ml-[5px] 2xl:ml-[27px] 4xl:ml-[27px] text-[#2D2D2D]'>&quot;Reliability is the precondition of trust&quot;</p>
                         </div>
                     </div>
                 </div>

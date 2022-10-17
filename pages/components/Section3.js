@@ -3,7 +3,7 @@ import React from 'react'
 const Section3 = () => {
     return (
         <div className='w-full h-full mx-auto '>
-            <div className='w-full max-w-[1920px] lg:mt-[0px] xl:mt-[0px] 2xl:mt-[0px] 4xl:mt-[0px] sm:mt-[-250px] md:mt-[-350px] h-full mx-auto '>
+            <div className='w-full 2xl:max-w-[1536px] sm:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] 4xl:max-w-[1920px] lg:mt-[0px] xl:mt-[0px] 2xl:mt-[0px] 4xl:mt-[0px] sm:mt-[-250px] md:mt-[-350px] h-full mx-auto '>
                 <div className=''>
                     <div className='  sm:w-full md:w-full  2xl:w-[826px] lg:w-[826px]  xl:w-[826px] 4xl:w-[826px] h-[115px] items-center 4xl:ml-[570px] 2xl:ml-[400px] xl:ml-[250px] lg:ml-24 mt-[1130px]'>
                         <p className='mt-[120px] sm:text-4xl md:text-4xl lg:text-4xl xl:text-4xl 4xl:text-4xl 2xl:text-4xl leading-[120%] font-bold text-center'>Procedure</p>
@@ -31,7 +31,7 @@ const Section3 = () => {
                         </div>
                     </div>
                     <div>
-                        <img className='sm:mt-[150px] md:mt-[208px] lg:mt-[258px] xl:mt-[258px] 4xl:mt-[258px] 2xl:mt-[258px] 2xl:ml-0 xl:ml-0 md:ml-14 lg:ml-24  md:h-[550px] 4xl:h-[950px] lg:h-[950px] xl:h-[950px] 2xl:h-[950px]' src=' https://tuk-cdn.s3.amazonaws.com/can-uploader/Group%20811529.svg' />
+                        <img className='sm:mt-[150px]  md:mt-[208px] lg:mt-[258px] xl:mt-[258px] 4xl:mt-[258px] 2xl:mt-[258px] 2xl:ml-0 xl:ml-0 md:ml-14 lg:ml-24  md:h-[550px] 4xl:h-[950px] lg:h-[950px] xl:h-[950px] 2xl:h-[950px]' src=' https://tuk-cdn.s3.amazonaws.com/can-uploader/Group%20811529.svg' />
                     </div>
                     <div className='w-[520px] mt-[270px]  h-[199px] '>
                         <div className='xl:mt-[82px] 2xl:ml-0 xl:ml-0  md:ml-[60px] sm:mt-[-110px] md:mt-[-20px] lg:ml-14 lg:mt-[145px]  2xl:mt-[80px]'>

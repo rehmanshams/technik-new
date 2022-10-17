@@ -130,14 +130,14 @@ const Section4 = () => {
                       src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Frame%20812932%20%285%29.svg"
                     />
                     <div className=" md:w-[248px] lg:w-[368px] xl:w-[368px] 4xl:w-[368px] 2xl:w-[368px] h-[87px]">
-                      <p className="lg:text-lg sm:ml-[-10px] md:ml-[-135px] sm:mt-[-125px] md:mt-[-85px] sm:text-sm md:text-sm lg:mr-2 xl:mr-[-180px] 4xl:mr-[-170px] 2xl:mr-[-160px] xl:text-2xl 2xl:text-2xl lg:mt-[-80px]  xl:mt-6  2xl:mt-6  text-center font-bold">
+                      <p className="lg:text-lg sm:ml-[-10px] md:ml-[-25px] sm:mt-[-125px] md:mt-[-85px] sm:text-sm md:text-sm lg:ml-[-140px] xl:ml-[36px] 4xl:ml-[20px] 2xl:ml-[20px] xl:text-2xl 2xl:text-2xl lg:mt-[-80px]  xl:mt-6  2xl:mt-6  text-center font-bold">
                         Timo Helsper
                       </p>
-                      <p className="lg:text-xs sm:text-xs xl:text-sm md:text-xs sm:ml-[-10px] md:ml-[-135px] lg:mr-2 xl:mr-[-170px] 2xl:mr-[-160px] 4xl:mr-[-170px] 2xl:text-sm	text-center font-normal text-[#2D2D2D]">
+                      <p className="lg:text-xs sm:text-xs xl:text-sm md:text-xs sm:ml-[-10px] md:ml-[-25px] lg:mr-2 xl:ml-[36px] 2xl:ml-[20px] 4xl:ml-[20px] 2xl:text-sm	text-center font-normal text-[#2D2D2D]">
                         (Project Engineer)
                       </p>
                       <a
-                        className="2xl:text-base lg:mr-2 md:ml-[-135px] sm:ml-[-10px] xl:mr-[-170px] sm:text-xs md:text-sm 2xl:mr-[-160px] lg:text-sm xl:text-base 4xl:mr-[-170px] text-center text-[#2D2D2D] flex justify-center  font-semibold align-center underline lg:mt-1 xl:mt-4 2xl:mt-4"
+                        className="2xl:text-base lg:ml-[-140px] md:ml-[-25px] sm:ml-[-10px] xl:ml-[36px] sm:text-xs md:text-sm 2xl:ml-[20px] lg:text-sm xl:text-base 4xl:ml-[20px] text-center text-[#2D2D2D] flex justify-center  font-semibold align-center underline lg:mt-1 xl:mt-4 2xl:mt-4"
                         href="tel:+49 40 357719-20"
                       >
                         {" "}
