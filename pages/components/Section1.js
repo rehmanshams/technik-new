@@ -1,4 +1,15 @@
-import React from 'react'
+import React, { useRef, useState } from "react";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/effect-cards";
+
+
+
+// import required modules
+import { EffectCards } from "swiper";
 
 const Section1 = () => {
 
@@ -27,9 +38,27 @@ const Section1 = () => {
 
             <div className=' w-full 2xl:ml-[200px] sm:max-w-[450px] md:max-w-[550px] lg:max-w-[750px] xl:max-w-[980px] 2xl:max-w-[1100px] 4xl:max-w-[1467px]  h-full float-right bg-gray-100'>
                 <div className='flex float-right'>
-                    <button className='arrow-button lg:h-14 xl:h-14 2xl:h-14 sm:h-12  sm:mt-[360px] sm:w-12 4xl:h-14 md:h-12 md:w-12 lg:w-14 xl:w-14 2xl:w-14 4xl:w-14 md:mt-[390px] xl:mt-[540px] lg:mt-[410px] 2xl:mt-[640px]'><img className='flex w-6 h-6 justify-center sm:mt-[-5px] md:mt-[-5px] lg:mt-0 xl:mt-0 4xl:mt-0 2xl:mt-0 mr-1' src='https://tuk-cdn.s3.amazonaws.com/can-uploader/Arrow_Left_5.svg'></img></button>
+                    {/* <button className='arrow-button lg:h-14 xl:h-14 2xl:h-14 sm:h-12  sm:mt-[360px] sm:w-12 4xl:h-14 md:h-12 md:w-12 lg:w-14 xl:w-14 2xl:w-14 4xl:w-14 md:mt-[390px] xl:mt-[540px] lg:mt-[410px] 2xl:mt-[640px]'><img className='flex w-6 h-6 justify-center sm:mt-[-5px] md:mt-[-5px] lg:mt-0 xl:mt-0 4xl:mt-0 2xl:mt-0 mr-1' src='https://tuk-cdn.s3.amazonaws.com/can-uploader/Arrow_Left_5.svg'></img></button>
                     <img className='mt-[136px] sm:max-w-[200px] md:max-w-[230px] w-full lg:max-w-[250px]  xl:max-w-[350px] 2xl:max-w-[436px] max-h-[662px] h-full mr-10' src='https://tuk-cdn.s3.amazonaws.com/can-uploader/Rectangle+2.svg'></img>
-                    <img className='mt-[100px] w-full sm:max-w-[120px] md:max-w-[150px] lg:max-w-[160px] 2xl:max-w-[400px] xl:max-w-[220px]' src='https://tuk-cdn.s3.amazonaws.com/can-uploader/Rectangle%203.svg'></img>
+                    <img className='mt-[100px] w-full sm:max-w-[120px] md:max-w-[150px] lg:max-w-[160px] 2xl:max-w-[400px] xl:max-w-[220px]' src='https://tuk-cdn.s3.amazonaws.com/can-uploader/Rectangle%203.svg'></img> */}
+                    <div className="main">
+                        <>
+                            <Swiper
+                                effect={"cards"}
+                                grabCursor={true}
+                                modules={[EffectCards]}
+                                className="mySwiper"
+                            >
+                                <SwiperSlide><img className="imageone" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Rectangle+2.svg" /></SwiperSlide>
+                                <SwiperSlide><img className="imageone" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Rectangle%203.svg" /></SwiperSlide>
+                                <SwiperSlide><img className="imageone" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Rectangle+2.svg" /></SwiperSlide>
+                                <SwiperSlide><img className="imageone" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Rectangle%203.svg" /></SwiperSlide>
+
+
+
+                            </Swiper>
+                        </>
+                    </div>
                 </div>
                 <div className='grid-container cursor-pointer sm:mt-[440px] md:mt-[490px] lg:mt-[520px] xl:mt-[670px] 2xl:mt-[800px] bg-inherit'>
 
@@ -44,7 +73,7 @@ const Section1 = () => {
                         <img src='https://tuk-cdn.s3.amazonaws.com/can-uploader/image%205.png' />
                     </div>
                 </div>
-              
+
             </div>
 
 
