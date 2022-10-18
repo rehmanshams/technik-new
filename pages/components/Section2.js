@@ -12,14 +12,14 @@ const Section2 = () => {
                 </div>
                 <div className='flex justify-center  w-full 2xl:max-w-[1920px] lg:max-w-[1024px] xl:max-w-[1340px] xl:ml-1 2xl:ml-0 sm:mt-28 md:mt-36 lg:mt-36 xl:mt-12 2xl:mt-12 sm:gap-3 md:gap-6 lg:gap-6 xl:gap-6 2xl:gap-6 4xl:gap-6'>
                     <div className='w-full lg:max-w-[300.67px] sm:max-w-[180px] md:max-w-[230px] xl:max-w-[400.67px] 2xl:max-w-[400.67px] h-[422px]'>
-                        <img src='https://tuk-cdn.s3.amazonaws.com/can-uploader/Rectangle%2011787.svg'></img>
+                        <img className='border-none' src='https://tuk-cdn.s3.amazonaws.com/can-uploader/Rectangle%2011787.svg'></img>
                         <div>
                             <p className='font-bold mt-6 leading-[150%] sm:text-md md:text-base lg:text-base xl:text-xl 2xl:text-xl text-center  xl:w-[424px] 2xl:w-[424px] h-[29px]'>Transparency</p>
                             <p className='font-normal mt-3 sm:text-[12px] md:text-xs  lg:text-xs xl:text-base 2xl:text-base text-center text-[#2D2D2D]'>&quot;Transparency helps you to be clear about your intentions.&quot;</p>
                         </div>
                     </div>
                     <div className='lg:w-[300.67px] md:w-[230px]  xl:w-[400.67px] sm:w-[180px] 2xl:w-[400.67px] h-[422px]'>
-                        <img src='https://tuk-cdn.s3.amazonaws.com/can-uploader/Rectangle%2011787%20%281%29.svg'></img>
+                        <img className='border-none	' src='https://tuk-cdn.s3.amazonaws.com/can-uploader/Rectangle%2011787%20%281%29.svg'></img>
                         <div>
                             <p className='font-bold mt-6 leading-[150%] lg:text-base xl:text-xl sm:text-[13px] md:text-base 2xl:text-xl text-center  xl:w-[424px] 2xl:w-[424px] h-[29px]'>Don&apos;t leave customers alone</p>
                             <p className='font-normal mt-3 lg:text-xs xl:text-base sm:text-[11px] md:text-xs 2xl:text-base text-center sm:ml-[-7px]  md:ml-[27px] lg:ml-[27px]  xl:ml-[27px] 2xl:ml-[27px] 4xl:ml-[27px] text-[#2D2D2D]'>&quot;Customer experience is the next competitive battleground&quot;</p>
