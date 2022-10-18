@@ -54,7 +54,7 @@ const Header = () => {
                         <ul className='font-normal font-camp'>References</ul>
                         <ul className='font-normal font-camp'>Careers</ul>
                     </nav>
-                    <div className='md:mt-7 sm:hidden md:flex lg:mt-5 xl:mt-5 2xl:mt-5 4xl:mt-5 text-center align-center flex justify-center  md:w-[80px] lg:w-[100px] 2xl:mr-20 xl:w-[150px] 2xl:w-[220px] md:h-[27px]  lg:h-[45px] xl:h-[55px] 2xl:h-[55px] bg-[#00828C]'>
+                    <div className='md:mt-7 lg:mr-3 md:mr-1 sm:hidden md:flex lg:mt-5 xl:mt-5 2xl:mt-5 4xl:mt-5 text-center align-center flex justify-center  md:w-[80px] lg:w-[100px] 2xl:mr-20 xl:w-[150px] 2xl:w-[220px] md:h-[27px]  lg:h-[45px] xl:h-[55px] 2xl:h-[55px] bg-[#00828C]'>
                         <button className='text-white    md:text-[10px]  lg:text-xs xl:text-sm 4xl:text-lg 2xl:text-lg font-medium w-[142px] h-[27px] lg:mt-2 xl:mt-3 2xl:mt-3' >Request a quote</button>
                     </div>
                 </div>

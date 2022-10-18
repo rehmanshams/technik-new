@@ -3,7 +3,7 @@ import React from 'react'
 const Section2 = () => {
     return (
         <div>
-            <div className='w-full xl:max-w-[2024px]  h-[1980px] bg-white  mx-auto '>
+            <div className='w-full sm:max-w-[640px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] 2xl:max-w-[1536px] 4xl:max-w-[1920px]  h-[1980px] bg-white  mx-auto '>
                 <div className='section-3 flex  sm:w-[640px] md:w-[768px] lg:w-[1024px] xl:w-[1280px] 2xl:w-full  justify-center  pt-[120px]'>
                     <div className='mt-[120px] w-full   max-w-[822px] h-[206px]'>
                         <p className='text-4xl leading-[120%]  2xl:ml-12 font-bold text-center'>Progress Is Our Constant Drive<br></br> We&apos;ll Take Care Of It!</p>
