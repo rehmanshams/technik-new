@@ -188,43 +188,234 @@
 #menuToggle input:checked ~ ul {
   transform: none;
 }
-html,
-body {
-  position: relative;
-  height: 100%;
+@media (min-width: 640px) {
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  #app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide {
+    border-radius: 22px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }
+  .main {
+    width: 100%;
+    margin-right: 107px;
+    height: 100%;
+    /* margin-left: 80px; */
+  }
+  .swiper {
+    width: 100%;
+    max-width: 200px;
+    height: 100%;
+    max-height: 262px;
+    margin-top: 120px;
+    padding-left: 100px;
+  }
+
+  .imageone {
+    width: 320px;
+    height: 305px;
+  }
+
 }
-#app {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+@media (min-width: 768px) {
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  #app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide {
+    border-radius: 22px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }
+  .main {
+    width: 100%;
+    margin-right: 107px;
+    height: 100%;
+    /* margin-left: 80px; */
+  }
+  .swiper {
+    width: 100%;
+    max-width: 240px;
+    height: 100%;
+    max-height: 292px;
+    margin-top: 120px;
+    padding-left: 100px;
+  }
+
+  .imageone {
+    width: 360px;
+    height: 360px;
+  }
 }
 
+@media (min-width: 1024px) {
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  #app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-.swiper-slide {
+  .swiper-slide {
+    border-radius: 22px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }
+  .main {
+    width: 100%;
+    margin-right: 137px;
+    height: 100%;
+    /* margin-left: 80px; */
+  }
+  .swiper {
+    width: 100%;
+    max-width: 250px;
+    height: 100%;
+    max-height: 302px;
+    margin-top: 120px;
+    padding-left: 100px;
+  }
 
-  border-radius: 22px;
-  font-size: 22px;
-  font-weight: bold;
-  color: #fff;
+  .imageone {
+    width: 380px;
+    height: 382px;
+  }
 }
-.main{
-  width: 100%;
-  margin-right: 227px;
-  height: 100%;
-  /* margin-left: -80px; */
+
+@media (min-width: 1280px) {
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  #app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide {
+    border-radius: 22px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }
+  .main {
+    width: 100%;
+    margin-right: 227px;
+    height: 100%;
+    /* margin-left: -80px; */
+  }
+  .swiper {
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    max-height: 342px;
+    margin-top: 160px;
+    padding-left: 100px;
+  }
+
+  .imageone {
+    width: 430px;
+    height: 462px;
+  }
 }
-.swiper {
-  width: 100%;
-  max-width: 456px;
-  height: 100%;
-  max-height: 662px;
-  margin-top: 110px;
-  padding-left: 100px;
+@media (min-width: 1536px) {
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  #app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide {
+    border-radius: 22px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }
+  .main {
+    width: 100%;
+    margin-right: 227px;
+    height: 100%;
+    /* margin-left: -80px; */
+  }
+  .swiper {
+    width: 100%;
+    max-width: 366px;
+    height: 100%;
+    max-height: 402px;
+    margin-top: 160px;
+    padding-left: 100px;
+  }
+
+  .imageone {
+    width: 490px;
+    height: 562px;
+  }
 }
+@media (min-width: 1918px) {
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  #app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-.imageone{
+  .swiper-slide {
+    border-radius: 22px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }
+  .main {
+    width: 100%;
+    margin-right: 227px;
+    height: 100%;
+    /* margin-left: -80px; */
+  }
+  .swiper {
+    width: 100%;
+    max-width: 456px;
+    height: 100%;
+    max-height: 662px;
+    margin-top: 110px;
+    padding-left: 100px;
+  }
 
-width: 636px;
-height: 692px;
-
+  .imageone {
+    width: 636px;
+    height: 692px;
+  }
 }

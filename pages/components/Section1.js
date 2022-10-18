@@ -50,9 +50,9 @@ const Section1 = () => {
                                 className="mySwiper"
                             >
                                 <SwiperSlide><img className="imageone" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Rectangle+2.svg" /></SwiperSlide>
-                                <SwiperSlide><img className="imageone" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Rectangle%203.svg" /></SwiperSlide>
-                                <SwiperSlide><img className="imageone" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Rectangle+2.svg" /></SwiperSlide>
-                                <SwiperSlide><img className="imageone" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Rectangle%203.svg" /></SwiperSlide>
+                                <SwiperSlide><img className="imageone" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/wp7004450-power-plant-wallpapers.jpg" /></SwiperSlide>
+                                <SwiperSlide><img className="imageone" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Rectangle%203%20%281%29.svg" /></SwiperSlide>
+                                <SwiperSlide><img className="imageone" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/wp7004549-power-plant-wallpapers.jpg" /></SwiperSlide>
 
 
 
