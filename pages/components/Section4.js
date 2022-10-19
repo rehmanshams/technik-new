@@ -114,7 +114,7 @@ const Section4 = () => {
                       className=" w-[190px] ml-1 pt-2 "
                       src="https://tuk-cdn.s3.amazonaws.com/can-uploader/Frame+812932+%283%29.svg"
                     />
-                    <div className="mt-[-15px]">
+                    <div className="mt-[-8px]">
                       <p className="xs:text-[16px] lg:text-lg xs:ml-[10px] sm:ml-[16px]  md:ml-[25px]  xs:mt-[7px] sm:mt-[-125px] md:mt-[-85px] sm:text-sm md:text-sm lg:mr-2 xl:mr-[-180px] 4xl:mr-[-170px] 2xl:mr-[-160px] xl:text-2xl 2xl:text-2xl lg:mt-[-80px]  xl:mt-6  2xl:mt-6  text-center font-bold">
                       Daniel Schauer
                       </p>

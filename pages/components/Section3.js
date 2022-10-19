@@ -3,9 +3,9 @@ import React from 'react'
 const Section3 = () => {
     return (
         <div className='w-full h-full mx-auto '>
-            <div className='w-full 2xl:max-w-[1536px]  xs:max-w-[320px] sm:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] 4xl:max-w-[1920px] lg:mt-[0px] xl:mt-[0px] 2xl:mt-[0px] 4xl:mt-[0px] xs:mt-[-850px] sm:mt-[-250px] md:mt-[-350px] h-full mx-auto '>
+            <div className='w-full 2xl:max-w-[1536px]  xs:max-w-[320px] sm:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] 4xl:max-w-[1920px] lg:mt-[0px] xl:mt-[0px] 2xl:mt-[0px] 4xl:mt-[0px] xs:mt-[-950px] sm:mt-[-250px] md:mt-[-350px] h-full mx-auto '>
                 <div className=''>
-                    <div className='  xs:w-full sm:w-full md:w-full  2xl:w-[826px] lg:w-[826px]  xl:w-[826px] 4xl:w-[826px] h-[115px] items-center xs:ml-[-10px] sm:ml-[0px] 4xl:ml-[570px] 2xl:ml-[400px] xl:ml-[250px] lg:ml-24 mt-[1130px]'>
+                    <div className='  xs:w-full sm:w-full md:w-full  2xl:w-[826px] lg:w-[826px]  xl:w-[826px] 4xl:w-[826px] h-[115px] items-center xs:ml-[-10px] sm:ml-[0px] 4xl:ml-[570px] 2xl:ml-[400px] xl:ml-[250px] lg:ml-24 xs:mt-[1130px] md:mt-[330px] sm:mt-[230px]'>
                         <p className='mt-[120px] xs:text-base sm:text-4xl md:text-4xl lg:text-4xl xl:text-4xl 4xl:text-4xl 2xl:text-4xl leading-[120%] font-bold text-center'>Procedure</p>
                         <p className='font-semibold leading-[150%] mt-3 xs:text-[6px] sm:text-xs md:text-xs  lg:text-base  xl:text-base  4xl:text-base  2xl:text-base text-center ml-[27px] text-[#2D2D2D]'>We don&#39;t let the little things stop us, we implement them quickly. This is how we ensure that we can deliver<br></br> fast and powerful results for our clients.</p>
                     </div>

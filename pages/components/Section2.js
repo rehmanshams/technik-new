@@ -25,7 +25,7 @@ const Section2 = () => {
                             <p className='font-normal mt-10 xs:text-[12px] sm:text-[12px] md:text-xs   lg:text-xs xl:text-base 2xl:text-base text-center text-[#2D2D2D]'>&quot;Customer experience is the next competitive battleground&quot;</p>
                         </div>
                     </div>
-                    <div className='w-full lg:max-w-[300.67px]  xs:max-w-[280px] sm:max-w-[180px] md:max-w-[230px] xl:max-w-[400.67px] 2xl:max-w-[400.67px] h-[422px]'>
+                    <div className='w-full lg:max-w-[300.67px] mt-8  xs:max-w-[280px] sm:max-w-[180px] md:max-w-[230px] xl:max-w-[400.67px] 2xl:max-w-[400.67px] h-[422px]'>
                         <img className='border-none xs:ml-6' src='https://tuk-cdn.s3.amazonaws.com/can-uploader/Rectangle+11787+%282%29.svg'></img>
                         <div className='ml-12'>
                             <p className='font-bold mt-6 leading-[150%] xs:text-lg sm:text-md md:text-base lg:text-base xl:text-xl 2xl:text-xl text-center  xl:w-[424px] 2xl:w-[424px] h-[29px]'>Delivery reliability adhere</p>

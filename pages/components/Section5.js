@@ -51,34 +51,6 @@ const Section5 = () => {
                             </div>
                         </div>
                     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                     <div className='flex xs:hidden sm:flex justify-center relative'>
                         <div className='flex justify-center  mt-10 xs:gap-2 sm:gap-2 md:gap-1 lg:gap-6 xl:gap-6 4xl:gap-6 2xl:gap-6'>
                             <div className='2xl:w-[330px] xs:h-[100px] xs:w-[85px] sm:h-[220px] sm:w-[200px] md:w-[250px] lg:w-[250px] xl:w-[330px] bg-white border-gray-300	4xl:h-[304px] md:h-[244px] border 2xl:h-[304px] lg:h-[254px] xl:h-[304px]'>
@@ -168,18 +140,6 @@ const Section5 = () => {
                             </div>
                         </div>
                     </div>
-
-
-
-
-
-
-
-
-
-
-
-
                     <div className='xs:hidden sm:flex justify-center relative'>
 
                         <div className='flex justify-center mt-7 xs:gap-2 sm:gap-2 md:gap-1 lg:gap-6 xl:gap-6 4xl:gap-6 2xl:gap-6'>
