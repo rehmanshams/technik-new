@@ -5,7 +5,7 @@ const Header = () => {
     const [show, setShow] = useState(false);
     return (
         <div className='w-full   max-w-[1920px] h-full mx-auto'>
-            <div className='flex xs:max-w-[320px] sm:max-w-[640px] md:max-w-[768px] lg:max-w-[1024px]  xl:max-w-[1280px] 2xl:max-w-[1536px] 4xl:max-w-[1920px] absolute justify-between w-full items-center'>
+            <div className='flex max-w-[1920px] absolute justify-between w-full items-center'>
                 <div className='  md:max-w-[91px]  lg:max-w-[141px] xl:max-w-[141px] 4xl:max-w-[141px] 2xl:max-w-[141px] w-full h-12 xs:ml-5 sm:ml-5 md:ml-10 lg:ml-16 xl:ml-20 2xl:ml-20 mt-4'>
                     <svg className='md:w-[102px]  xs:w-[60px] sm:w-[90px] lg:w-[142px] xl:w-[142px] 2xl:w-[142px] 4xl:w-[142px]' height="49" viewBox="0 0 142 49" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M47.2321 9.05762C44.8366 9.05762 43.2521 10.7058 43.2521 12.9932C43.2521 15.2915 44.8822 16.9389 47.325 16.9389C49.0886 16.9389 50.4626 16.033 50.8995 14.5945H48.3133C48.0886 14.8134 47.7661 14.9493 47.3557 14.9493C46.4021 14.9493 45.8822 14.4184 45.6791 13.7339H50.9825C51.0281 13.4403 51.0281 13.13 51.0281 12.8355C51.0281 10.5649 49.383 9.05762 47.2321 9.05762ZM45.6658 12.2593C45.8499 11.4985 46.3714 11.0011 47.2188 11.0011C48.0157 11.0011 48.5538 11.4356 48.6923 12.2593H45.6658Z" fill="#00828C" />
@@ -22,8 +22,8 @@ const Header = () => {
                     </svg>
                 </div>
                 <div className=''>
-                    <nav className=' xs:flex sm:flex md:hidden' role=" navigation">
-                        <div onClick={() => setShow(!show)} className='xs:ml-[140px] sm:ml-[400px] pb-[90px]' id="menuToggle">
+                    <nav className='  xs:flex sm:flex md:hidden' role=" navigation">
+                        <div onClick={() => setShow(!show)} className=' xs:ml-[100px] sm:ml-[400px] pb-[90px]' id="menuToggle">
 
                             <input className='' type="checkbox" />
 
