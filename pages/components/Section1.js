@@ -60,7 +60,7 @@ const Section1 = () => {
                         </>
                     </div>
                 </div>
-                <div className='grid-container cursor-pointer xs:mt-[340px] sm:mt-[440px] md:mt-[490px] lg:mt-[520px] xl:mt-[670px] 2xl:mt-[800px] bg-inherit'>
+                <div className='grid-container w-full xs:max-w-[320px] sm:max-w-[640px] md:max-w-[768px] lg:max-w-[1024px]  xl:max-w-[1280px] 2xl:max-w-[1536px] 4xl:max-w-[1920px] cursor-pointer xs:mt-[340px] sm:mt-[440px] md:mt-[490px] lg:mt-[520px] xl:mt-[670px] 2xl:mt-[800px] bg-inherit'>
 
                     <div className=' flex justify-center align-center  xl:ml-32 2xl:ml-[100px] 4xl:ml-[250px] items-center w-full xs:max-w-[50px] sm:max-w-[80px] md:max-w-[80px] lg:max-w-[176px] xl:max-w-[176px] 2xl:max-w-[176px] 4xl:max-w-[176px] h-[168.54px] '>
                         <img src='https://tuk-cdn.s3.amazonaws.com/can-uploader/image%206.png' />
