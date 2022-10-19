@@ -41,7 +41,7 @@
   box-shadow: 0px 4px 24px rgba(171, 171, 171, 0.15);
 }
 .boderlineclass {
-  width: 52px;
+
   height: 0px;
 
   border: 1.5px solid #00828c;
@@ -187,6 +187,45 @@
   */
 #menuToggle input:checked ~ ul {
   transform: none;
+}
+@media (min-width: 320px) {
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  #app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide {
+    border-radius: 22px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }
+  .main {
+    width: 100%;
+    margin-right: 24px;
+    height: 100%;
+    /* margin-left: 80px; */
+  }
+  .swiper {
+    width: 100%;
+    max-width: 110px;
+    height: 100%;
+    max-height: 192px;
+    margin-top: 150px;
+    padding-left: 100px;
+  }
+
+  .imageone {
+    width: 250px;
+    height: 170px;
+  }
+
 }
 @media (min-width: 640px) {
   html,

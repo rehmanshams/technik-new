@@ -4,10 +4,10 @@ import { useState } from "react";
 const Header = () => {
     const [show, setShow] = useState(false);
     return (
-        <div className='w-full  max-w-[1920px] h-full mx-auto'>
+        <div className='w-full   max-w-[1920px] h-full mx-auto'>
             <div className='flex  max-w-[1920px] absolute justify-between w-full items-center'>
-                <div className='md:max-w-[91px]  lg:max-w-[141px] xl:max-w-[141px] 4xl:max-w-[141px] 2xl:max-w-[141px] w-full h-12 sm:ml-5 md:ml-10 lg:ml-16 xl:ml-20 2xl:ml-20 mt-4'>
-                    <svg className='md:w-[102px] sm:w-[90px] lg:w-[142px] xl:w-[142px] 2xl:w-[142px] 4xl:w-[142px]' height="49" viewBox="0 0 142 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <div className='  md:max-w-[91px]  lg:max-w-[141px] xl:max-w-[141px] 4xl:max-w-[141px] 2xl:max-w-[141px] w-full h-12 xs:ml-5 sm:ml-5 md:ml-10 lg:ml-16 xl:ml-20 2xl:ml-20 mt-4'>
+                    <svg className='md:w-[102px]  xs:w-[60px] sm:w-[90px] lg:w-[142px] xl:w-[142px] 2xl:w-[142px] 4xl:w-[142px]' height="49" viewBox="0 0 142 49" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M47.2321 9.05762C44.8366 9.05762 43.2521 10.7058 43.2521 12.9932C43.2521 15.2915 44.8822 16.9389 47.325 16.9389C49.0886 16.9389 50.4626 16.033 50.8995 14.5945H48.3133C48.0886 14.8134 47.7661 14.9493 47.3557 14.9493C46.4021 14.9493 45.8822 14.4184 45.6791 13.7339H50.9825C51.0281 13.4403 51.0281 13.13 51.0281 12.8355C51.0281 10.5649 49.383 9.05762 47.2321 9.05762ZM45.6658 12.2593C45.8499 11.4985 46.3714 11.0011 47.2188 11.0011C48.0157 11.0011 48.5538 11.4356 48.6923 12.2593H45.6658Z" fill="#00828C" />
                         <path d="M12.1939 9.05762C9.79598 9.05762 8.21143 10.7058 8.21143 12.9932C8.21143 15.2915 9.84075 16.9389 12.2868 16.9389C14.0513 16.9389 15.4236 16.033 15.8597 14.5945H13.276C13.0488 14.8134 12.7271 14.9493 12.3167 14.9493C11.3648 14.9493 10.8432 14.4184 10.6409 13.7339H15.9426C15.9899 13.4403 15.9899 13.13 15.9899 12.8355C15.9899 10.5649 14.3456 9.05762 12.1939 9.05762ZM10.626 12.2593C10.8109 11.4985 11.3316 11.0011 12.1774 11.0011C12.9775 11.0011 13.5156 11.4356 13.6516 12.2593H10.626Z" fill="#00828C" />
                         <path d="M106.029 24.0198V12.322H59.2386V0.5H35.0392V12.322H24.2002V0.5H0V24.9802H11.6913V36.7141H70.0742V48.5H141.026V24.0198H106.029ZM35.8642 1.33376H58.4127V24.1456H35.8642V1.33376ZM0.826685 1.33376H23.376V24.1456H0.826685V1.33376ZM70.0742 35.8787H12.5155V24.9802H24.2002V13.1557H35.0392V24.9802H59.2386V13.1557H105.206V24.0198H70.0742V35.8787ZM140.2 47.6654H70.8984V24.8544H140.2V47.6654Z" fill="#00828C" />
@@ -22,8 +22,8 @@ const Header = () => {
                     </svg>
                 </div>
                 <div className=''>
-                    <nav className=' sm:flex md:hidden' role=" navigation">
-                        <div onClick={() => setShow(!show)} className='ml-[400px] pb-[90px]' id="menuToggle">
+                    <nav className=' xs:flex sm:flex md:hidden' role=" navigation">
+                        <div onClick={() => setShow(!show)} className='xs:ml-[140px] sm:ml-[400px] pb-[90px]' id="menuToggle">
 
                             <input className='' type="checkbox" />
 
@@ -54,7 +54,7 @@ const Header = () => {
                         <ul className='font-normal font-camp'>References</ul>
                         <ul className='font-normal font-camp'>Careers</ul>
                     </nav>
-                    <div className='md:mt-7 lg:mr-3 md:mr-1 sm:hidden md:flex lg:mt-5 xl:mt-5 2xl:mt-5 4xl:mt-5 text-center align-center flex justify-center  md:w-[80px] lg:w-[100px] 2xl:mr-20 xl:w-[150px] 4xl:w-[220px] 2xl:w-[220px] md:h-[27px]  lg:h-[45px] xl:h-[55px] 4xl:h-[40px] 2xl:h-[40px] bg-[#00828C]'>
+                    <div className='md:mt-7 lg:mr-3 md:mr-1 xs:hidden sm:hidden md:flex lg:mt-5 xl:mt-5 2xl:mt-5 4xl:mt-5 text-center align-center flex justify-center  md:w-[80px] lg:w-[100px] 2xl:mr-20 xl:w-[150px] 4xl:w-[220px] 2xl:w-[220px] md:h-[27px]  lg:h-[45px] xl:h-[55px] 4xl:h-[40px] 2xl:h-[40px] bg-[#00828C]'>
                         <button className='text-white    md:text-[10px]  lg:text-xs xl:text-sm 4xl:text-lg 2xl:text-lg font-medium w-[142px] h-[27px] lg:mt-2 xl:mt-3 4xl:mt-1 2xl:mt-1' >Request a quote</button>
                     </div>
                 </div>

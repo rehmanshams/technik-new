@@ -4,23 +4,23 @@ const Section6 = () => {
   return (
     <div className="w-full mx-auto">
       <div className="w-full  text-center place-content-center">
-        <p className="sm:text-[35px] md:text-[48px] lg:text-[48px] xl:text-[48px] 2xl:text-[48px] 4xl:text-[48px] font-bold  mt-[120px] text-[#27272A]">
+        <p className="xs:text-[16px] sm:text-[35px] md:text-[48px] lg:text-[48px] xl:text-[48px] 2xl:text-[48px] 4xl:text-[48px] font-bold  mt-[120px] text-[#27272A]">
           What Our Client Says
         </p>
         <br></br>
-        <p className="sm:text-md md:text-lg lg:text-lg 2xl:text-lg xl:text-lg 4xl:text-lg mt-[1px] font-normal	text-[#52525B]">
+        <p className="xs:text-xs sm:text-md md:text-lg lg:text-lg 2xl:text-lg xl:text-lg 4xl:text-lg mt-[1px] font-normal	text-[#52525B]">
           Typical questions from our customers
         </p>
       </div>
-      <div className="w-full  sm:max-w-[572px] md:max-w-[662px] lg:max-w-[800px] 2xl:max-w-[800px] 4xl:max-w-[800px] xl:max-w-[800px] mt-16 mx-auto">
-      <div className="border-b text-center place-content-center  border-gray-300	 mt-[22px] sm:w-[580px] md:w-[685px] lg:w-[825px] xl:w-[825px] 4xl:w-[825px] 2xl:w-[825px]"></div>
+      <div className="w-full  xs:max-w-[300px] sm:max-w-[572px] md:max-w-[662px] lg:max-w-[800px] 2xl:max-w-[800px] 4xl:max-w-[800px] xl:max-w-[800px]  mt-16 mx-auto">
+        <div className="border-b text-center place-content-center  border-gray-300	 mt-[22px] xs:w-[290px] sm:w-[580px] md:w-[685px] lg:w-[825px] xl:w-[825px] 4xl:w-[825px] 2xl:w-[825px]"></div>
         <div
           onClick={() => {
             faq !== null ? setFaq(0) : setFaq(null);
           }}
-          className="flex cursor-pointer justify-between md:w-[650px]  lg:w-full 2xl:w-full 4xl:w-full xl:w-full 	 mt-7"
+          className="flex cursor-pointer justify-between sm:w-[580px]  md:w-[650px] sm:w-[580px]  xs:w-[285px] lg:w-full 2xl:w-full 4xl:w-full xl:w-full 	 mt-7"
         >
-          <p className="text-lg   font-medium	text-[#27272A]  text-left">
+          <p className="xs:text-[9px] sm:text-lg   font-medium	text-[#27272A]  text-left">
             What certificates does the controller have?
           </p>
           <button>
@@ -47,20 +47,20 @@ const Section6 = () => {
         </div>
         <div className={`${faq === 0 ? " block" : "hidden"}`}>
           {" "}
-          <p className=" text-left font-thin transition-all mt-7 text-[#52525B] text-base w-full">
+          <p className=" text-left font-thin transition-all mt-7 text-[#52525B] xs:text-[7px] sm:text-base w-full">
             Yes, you can try us for free for 30 days. If you want, we&#39;ll
             provide you with a free, personalized 30-<br></br>minute onboarding
             call to get you up and running as soon as possible.
           </p>
         </div>
-        <div className="border-b text-center place-content-center  border-gray-300	 mt-[22px] sm:w-[580px] md:w-[685px] lg:w-[825px] xl:w-[825px] 4xl:w-[825px] 2xl:w-[825px]"></div>
+        <div className="border-b text-center place-content-center  border-gray-300	 mt-[22px] xs:w-[290px] sm:w-[580px] md:w-[685px] lg:w-[825px] xl:w-[825px] 4xl:w-[825px] 2xl:w-[825px]"></div>
         <div
           onClick={() => {
             faq !== null ? setFaq(2) : setFaq(null);
           }}
-          className="flex cursor-pointer justify-between md:w-[650px]  lg:w-full 2xl:w-full 4xl:w-full xl:w-full 	 mt-7"
+          className="flex cursor-pointer justify-between md:w-[650px] sm:w-[580px] xs:w-[285px] lg:w-full 2xl:w-full 4xl:w-full xl:w-full 	 mt-7"
         >
-          <p className="text-lg   font-medium	text-[#27272A]  text-left">
+          <p className="xs:text-[9px] sm:text-lg  font-medium	text-[#27272A]  text-left">
             Can the controller from ee technik also be retrofitted?
           </p>
           <button>
@@ -87,20 +87,20 @@ const Section6 = () => {
         </div>
         <div className={`${faq === 2 ? "block" : "hidden"}`}>
           {" "}
-          <p className=" text-left font-thin transition-all mt-7 text-[#52525B] text-base w-full">
+          <p className=" text-left font-thin transition-all mt-7 text-[#52525B] xs:text-[7px] sm:text-base w-full">
             Yes, you can try us for free for 30 days. If you want, we&#39;ll
             provide you with a free, personalized 30-<br></br>minute onboarding
             call to get you up and running as soon as possible.
           </p>
         </div>
-        <div className="border-b text-center place-content-center  border-gray-300	 mt-[22px] sm:w-[580px] md:w-[685px] lg:w-[825px] xl:w-[825px] 4xl:w-[825px] 2xl:w-[825px]"></div>
+        <div className="border-b text-center place-content-center  border-gray-300	 mt-[22px] xs:w-[290px] sm:w-[580px] md:w-[685px] lg:w-[825px] xl:w-[825px] 4xl:w-[825px] 2xl:w-[825px]"></div>
         <div
           onClick={() => {
             faq !== null ? setFaq(3) : setFaq(null);
           }}
-          className="flex cursor-pointer justify-between md:w-[650px]  lg:w-full 2xl:w-full 4xl:w-full xl:w-full 	 mt-7"
+          className="flex cursor-pointer justify-between md:w-[650px] sm:w-[580px] xs:w-[285px] lg:w-full 2xl:w-full 4xl:w-full xl:w-full 	 mt-7"
         >
-          <p className="text-lg   font-medium	text-[#27272A]  text-left">
+          <p className="xs:text-[9px] sm:text-lg  font-medium	text-[#27272A]  text-left">
             Which network operators and which direct marketers support the ee
             technik controller?
           </p>
@@ -128,20 +128,19 @@ const Section6 = () => {
         </div>
         <div className={`${faq === 3 ? "block" : "hidden"}`}>
           {" "}
-          <p className=" text-left font-thin transition-all mt-7 text-[#52525B] text-base w-full">
+          <p className=" text-left font-thin transition-all mt-7 text-[#52525B] xs:text-[7px] sm:text-base w-full">
             Yes, you can try us for free for 30 days. If you want, we&#39;ll
             provide you with a free, personalized 30-<br></br>minute onboarding
             call to get you up and running as soon as possible.
           </p>
         </div>
-        <div className="border-b text-center place-content-center  border-gray-300	 mt-[22px] sm:w-[580px] md:w-[685px] lg:w-[825px] xl:w-[825px] 4xl:w-[825px] 2xl:w-[825px]"></div>
-        <div
+        <div className="border-b text-center place-content-center  border-gray-300	 mt-[22px] xs:w-[290px] sm:w-[580px] md:w-[685px] lg:w-[825px] xl:w-[825px] 4xl:w-[825px] 2xl:w-[825px]"></div>        <div
           onClick={() => {
             faq !== null ? setFaq(4) : setFaq(null);
           }}
-          className="flex cursor-pointer justify-between md:w-[650px]  lg:w-full 2xl:w-full 4xl:w-full xl:w-full 	 mt-7"
+          className="flex cursor-pointer justify-between md:w-[650px] sm:w-[580px] xs:w-[285px] lg:w-full 2xl:w-full 4xl:w-full xl:w-full 	 mt-7"
         >
-          <p className="text-lg   font-medium	text-[#27272A]  text-left">
+          <p className="xs:text-[9px] sm:text-lg   font-medium	text-[#27272A]  text-left">
             Which interfaces does the controller support?
           </p>
           <button>
@@ -168,20 +167,19 @@ const Section6 = () => {
         </div>
         <div className={`${faq === 4 ? "block" : "hidden"}`}>
           {" "}
-          <p className=" text-left font-thin transition-all mt-7 text-[#52525B] text-base w-full">
+          <p className=" text-left font-thin transition-all mt-7 text-[#52525B] xs:text-[7px] sm:text-base w-full">
             Yes, you can try us for free for 30 days. If you want, we&#39;ll
             provide you with a free, personalized 30-<br></br>minute onboarding
             call to get you up and running as soon as possible.
           </p>
         </div>
-        <div className="border-b text-center place-content-center  border-gray-300	 mt-[22px] sm:w-[580px] md:w-[685px] lg:w-[825px] xl:w-[825px] 4xl:w-[825px] 2xl:w-[825px]"></div>
-        <div
+        <div className="border-b text-center place-content-center  border-gray-300	 mt-[22px] xs:w-[290px] sm:w-[580px] md:w-[685px] lg:w-[825px] xl:w-[825px] 4xl:w-[825px] 2xl:w-[825px]"></div>        <div
           onClick={() => {
             faq !== null ? setFaq(5) : setFaq(null);
           }}
-          className="flex cursor-pointer justify-between md:w-[650px]  lg:w-full 2xl:w-full 4xl:w-full xl:w-full 	 mt-7"
+          className="flex cursor-pointer justify-between md:w-[650px] sm:w-[580px] xs:w-[285px] lg:w-full 2xl:w-full 4xl:w-full xl:w-full 	 mt-7"
         >
-          <p className="text-lg   font-medium	text-[#27272A]  text-left">
+          <p className="xs:text-[9px] sm:text-lg   font-medium	text-[#27272A]  text-left">
             What happens if the grid operator intervenes in feed-in management?
           </p>
           <button>
@@ -208,20 +206,19 @@ const Section6 = () => {
         </div>
         <div className={`${faq === 5 ? "block" : "hidden"}`}>
           {" "}
-          <p className=" text-left font-thin transition-all mt-7 text-[#52525B] text-base w-full">
+          <p className=" text-left font-thin transition-all mt-7 text-[#52525B] xs:text-[7px] sm:text-base w-full">
             Yes, you can try us for free for 30 days. If you want, we&#39;ll
             provide you with a free, personalized 30-<br></br>minute onboarding
             call to get you up and running as soon as possible.
           </p>
         </div>
-        <div className="border-b text-center place-content-center  border-gray-300	 mt-[22px] sm:w-[580px] md:w-[685px] lg:w-[825px] xl:w-[825px] 4xl:w-[825px] 2xl:w-[825px]"></div>
-        <div
+        <div className="border-b text-center place-content-center  border-gray-300	 mt-[22px] xs:w-[290px] sm:w-[580px] md:w-[685px] lg:w-[825px] xl:w-[825px] 4xl:w-[825px] 2xl:w-[825px]"></div>        <div
           onClick={() => {
             faq !== null ? setFaq(6) : setFaq(null);
           }}
-          className="flex cursor-pointer justify-between md:w-[650px]  lg:w-full 2xl:w-full 4xl:w-full xl:w-full 	 mt-7"
+          className="flex cursor-pointer justify-between md:w-[650px] sm:w-[580px] xs:w-[285px] lg:w-full 2xl:w-full 4xl:w-full xl:w-full 	 mt-7"
         >
-          <p className="text-lg   font-medium	text-[#27272A]  text-left">
+          <p className="xs:text-[9px] sm:text-lg font-medium	text-[#27272A]  text-left">
             How much does the EZA controller cost?
           </p>
           <button>
@@ -248,20 +245,19 @@ const Section6 = () => {
         </div>
         <div className={`${faq === 6 ? "block" : "hidden"}`}>
           {" "}
-          <p className=" text-left font-thin transition-all mt-7 text-[#52525B] text-base w-full">
+          <p className=" text-left font-thin transition-all mt-7 text-[#52525B] xs:text-[7px] sm:text-base w-full">
             Yes, you can try us for free for 30 days. If you want, we&#39;ll
             provide you with a free, personalized 30-<br></br>minute onboarding
             call to get you up and running as soon as possible.
           </p>
         </div>
-        <div className="border-b text-center place-content-center  border-gray-300	 mt-[22px] sm:w-[580px] md:w-[685px] lg:w-[825px] xl:w-[825px] 4xl:w-[825px] 2xl:w-[825px]"></div>
-        <div
+        <div className="border-b text-center place-content-center  border-gray-300	 mt-[22px] xs:w-[290px] sm:w-[580px] md:w-[685px] lg:w-[825px] xl:w-[825px] 4xl:w-[825px] 2xl:w-[825px]"></div>        <div
           onClick={() => {
             faq !== null ? setFaq(7) : setFaq(null);
           }}
-          className="flex cursor-pointer justify-between md:w-[650px]  lg:w-full 2xl:w-full 4xl:w-full xl:w-full 	 mt-7"
+          className="flex cursor-pointer justify-between md:w-[650px] sm:w-[580px] xs:w-[285px]  lg:w-full 2xl:w-full 4xl:w-full xl:w-full 	 mt-7"
         >
-          <p className="text-lg   font-medium	text-[#27272A]  text-left">
+          <p className="xs:text-[9px] sm:text-lg   font-medium	text-[#27272A]  text-left">
             How long is the delivery time of the EZA controller?
           </p>
           <button>
@@ -288,16 +284,15 @@ const Section6 = () => {
         </div>
         <div className={`${faq === 7 ? "block" : "hidden"}`}>
           {" "}
-          <p className=" text-left font-thin transition-all mt-7 text-[#52525B] text-base w-full">
+          <p className=" text-left font-thin transition-all mt-7 text-[#52525B] xs:text-[7px] sm:text-base w-full">
             Yes, you can try us for free for 30 days. If you want, we&#39;ll
             provide you with a free, personalized 30-<br></br>minute onboarding
             call to get you up and running as soon as possible.
           </p>
         </div>
-        <div className="border-b text-center place-content-center  border-gray-300	 mt-[22px] sm:w-[580px] md:w-[685px] lg:w-[825px] xl:w-[825px] 4xl:w-[825px] 2xl:w-[825px]"></div>
-        <div className="w-full flex justify-center">
-          <div className="w-[258px] h-[55px] bg-[#00828C] mt-7 place-content-center flex justify-center">
-            <button className="font-medium text-white text-camp text-lg leading-[150%]">
+        <div className="border-b text-center place-content-center  border-gray-300	 mt-[22px] xs:w-[290px] sm:w-[580px] md:w-[685px] lg:w-[825px] xl:w-[825px] 4xl:w-[825px] 2xl:w-[825px]"></div>        <div className="w-full flex justify-center">
+          <div className="xs:w-[158px] xs:h-[35px] sm:w-[258px] sm:h-[55px] bg-[#00828C] mt-7 place-content-center flex justify-center">
+            <button className="font-medium text-white text-camp xs:text-xs sm:text-lg leading-[150%]">
               Connect me to the grid
             </button>
           </div>
